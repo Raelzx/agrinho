@@ -1,0 +1,20 @@
+<style>
+    /* CSS existente ... */
+
+    /* Estilo para a imagem no canto superior direito */
+    .corner-image {
+        position: fixed;
+        top: 20px; /* Distância do topo */
+        right: 20px; /* Distância da direita */
+        z-index: 999; /* Z-index para garantir que fique sobre o conteúdo */
+    }
+
+    .corner-image img {
+        width: 100px; /* Largura da imagem */
+        border-radius: 50%; /* Bordas arredondadas (para imagem circular, se for o caso) */
+        border: 2px solid #fff; /* Borda branca com espessura de 2px */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    }
+
+    /* CSS existente ... */
+</style>
